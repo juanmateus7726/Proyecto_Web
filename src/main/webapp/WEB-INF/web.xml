@@ -5,28 +5,20 @@
         <welcome-file>index.jsp</welcome-file>
     </welcome-file-list>
     <servlet>
-        <servlet-name>ConsultaServlet</servlet-name>
-        <servlet-class>com.miproyecto.servlets.ConsultaServlet</servlet-class>
-    </servlet>
-    <servlet>
-        <servlet-name>Usuario</servlet-name>
-        <servlet-class>com.miproyecto.modelo.Usuario</servlet-class>
-    </servlet>
-    <servlet>
         <servlet-name>RegistroServlet</servlet-name>
         <servlet-class>com.miproyecto.servlets.RegistroServlet</servlet-class>
     </servlet>
-    <servlet-mapping>
+    <servlet>
         <servlet-name>ConsultaServlet</servlet-name>
-        <url-pattern>/ConsultaServlet</url-pattern>
-    </servlet-mapping>
-    <servlet-mapping>
-        <servlet-name>Usuario</servlet-name>
-        <url-pattern>/Usuario</url-pattern>
-    </servlet-mapping>
+        <servlet-class>com.miproyecto.servlets.ConsultaServlet</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>RegistroServlet</servlet-name>
         <url-pattern>/RegistroServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ConsultaServlet</servlet-name>
+        <url-pattern>/ConsultaServlet</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>
