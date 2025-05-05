@@ -4,6 +4,8 @@
     Author     : Personal
 --%>
 
+<%@page import="java.util.List"%>
+<%@page import="com.miproyecto.modelo.Usuario"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
